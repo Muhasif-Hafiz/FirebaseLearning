@@ -46,7 +46,7 @@ class LoginActivity : AppCompatActivity() {
     }
     private fun loginUser( email : String,  Password : String){
         auth.signInWithEmailAndPassword(email,Password).addOnSuccessListener {
-            startActivity(Intent(this@LoginActivity, HomeActivity::class.java))
+            startActivity(Intent(this@LoginActivity, FirestoreActivity::class.java))
             Toast.makeText(this, "LogIn Successfull", Toast.LENGTH_SHORT).show()
         }.addOnFailureListener {
             Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show()
