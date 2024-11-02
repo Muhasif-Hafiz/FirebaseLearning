@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812134468584",
+    "project_id": "learnonfire-1274a",
+    "storage_bucket": "learnonfire-1274a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812134468584:android:944ce84e948ce86e6a725d",
+        "android_client_info": {
+          "package_name": "com.muhasib.firebaselearning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Gb0NSOV42homRCUucLx84rmj-SRLIR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
