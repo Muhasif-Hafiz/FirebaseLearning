@@ -21,11 +21,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/authentication_screen_marginStartEnd"
-            android:layout_marginTop="@dimen/authentication_screen_card_view_marginTop"
-            android:layout_marginEnd="@dimen/authentication_screen_marginStartEnd"
-            android:elevation="@dimen/card_view_elevation"
-            app:cardCornerRadius="@dimen/card_view_corner_radius">
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="25dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
