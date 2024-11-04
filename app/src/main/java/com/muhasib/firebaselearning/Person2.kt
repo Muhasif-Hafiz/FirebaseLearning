@@ -1,14 +1,8 @@
+
+
 package com.muhasib.firebaselearning
-class Person2 {
-    var name: String? = null
-    var age: String? = null // Change to String to match Firebase
-
-    // No-argument constructor for Firebase
-    constructor()
-
-    // Parameterized constructor
-    constructor(name: String?, age: String?) {
-        this.name = name
-        this.age = age
-    }
-}
+data class Person2(
+    var name: String? = null, // Nullable if you want to allow null values
+    var age: String? = null,   // Change to String to match Firebase
+    var documentId: String = "" // Keep this as a non-nullable String
+)

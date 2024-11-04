@@ -1,5 +1,6 @@
 package com.muhasib.firebaselearning
 
+
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
@@ -9,10 +10,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+
 import com.google.firebase.firestore.FirebaseFirestore
-import org.w3c.dom.Text
+
 
 class FirestoreActivity : AppCompatActivity() {
     private lateinit  var et_name :EditText
@@ -33,6 +33,8 @@ class FirestoreActivity : AppCompatActivity() {
             val map: HashMap<String, String> = HashMap()
             map["Name"] = et_name.text.toString()
             map["Age"] = et_add.text.toString()
+
+
 
 
             FirebaseFirestore.getInstance()
